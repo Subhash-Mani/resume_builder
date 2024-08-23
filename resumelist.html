@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resumelist.css">
+</head>
+<body>
+    
+   <button class="butn"  onclick="logout()" style="background-color: orange;" >logout </button></a>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>email</th>
+                <th>phone</th>
+                <th>action</th>
+            </tr>
+
+        </thead>
+        <tbody id="listtable">
+            
+        </tbody>
+    </table>
+    
+    
+</body>
+<script src="resume.js" ></script>
+<script>
+    relist()
+</script>
+<script>
+    let signin=localStorage.getItem("signin")
+    if(!signin){
+        window.location="index.html"
+    }
+</script>
+</html>

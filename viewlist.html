@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Resume</h1>
+    <h2 id="rename"></h2>
+    
+</body>
+<script>
+    const searchParams = new URLSearchParams(window.location.search); 
+    const indexParam = searchParams.get('index'); 
+     
+    const ls_data = JSON.parse(localStorage.getItem('user_resume'))
+    document.getElementById('rename').innerHTML=ls_data[indexParam].name
+
+</script>
+
+<script>
+    let signin=localStorage.getItem("signin")
+    if(!signin){
+        window.location="index.html"
+    }
+</script>
+</html>

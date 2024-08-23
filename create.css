@@ -1,0 +1,115 @@
+*{margin: 0;
+    padding:0;}
+    body{background-color: rgb(5, 5, 5);}
+    h1{color: rgb(248, 245, 245);
+        background-color:orange;
+       text-align: center;
+       margin-top: 0px;
+       }
+
+       img{width: 280px;}
+       .logo{display: inline-block;}
+
+    h3{color: rgb(10, 10, 10);
+      display: inline-block;
+    margin-top: 30px;
+   }
+
+    .grandparent{margin-top: 20px;
+        background-color:orange;
+        width: 60%;
+        text-align: center;
+        border: 3px solid white;
+        border-radius: 6px;
+   }
+   .bt12{ width: 100px;
+      height: 40px;
+   vertical-align: top;
+   margin-top: 20px;
+    margin-left: 900px;
+    background-color: orange;
+    border-radius: 6px;}
+    
+    .gchild1{margin-left:30px ;}
+    .gchild2{margin-left:30px ;}
+    .gchild3{margin-left:32px ;}
+    .gchild4{margin-left:14px ;}
+    .gchild5{margin-left:9px ;}
+    .vchild3{margin-left: 60px;}
+    
+    .gparent6{margin-top: 30px;}
+
+    .child7{margin-left: 34px;}
+    .child6{margin-left: 33px;}
+    .child5{margin-left: 10px;}
+    .child4{margin-left: 20px;}
+    .child3{margin-left: 80px;
+          }
+    .child2{margin-left: 64px;}
+    .child1{margin-left: 80px;}
+    .lan{margin-left: 20px;}
+
+    .gparent7{margin-top: 30px;}
+    .schild1{margin-top: 30px;}
+
+    .gparent8{margin-top: 30px;
+    }
+    .et1{
+       text-align: center;
+    margin-left: 35px;
+    margin-top: 30px;}
+
+    pre{color: white;}
+    .sbt{background-color: orange;
+         color: rgb(7, 7, 7);
+         margin-left: 360px;
+         margin-right: 20px;
+         margin-top: 20px;
+         padding: 10px;}
+
+    .et{width: 93.4%;
+        margin-left: 35px;}
+
+        .gparent9{margin-top: 30px;
+        }
+        .pt1{margin-top: 30px;
+            width: 91.7%;
+         margin-left: 35px;
+         text-align: center;}
+         
+         .pt2{
+            width: 91.7%;
+         margin-left: 35px;
+         text-align: center;}
+
+         .gparent10{margin-top: 30px;
+         }
+
+         .wt1{margin-top: 30px;
+            width: 91.7%;
+         margin-left: 35px;
+         text-align: center;}
+
+
+         .wt2{
+            width: 91.7%;
+         margin-left: 35px;
+         text-align: center;
+         margin-bottom: 40px;}
+          .sub{margin-top: 30px;
+               }
+
+
+     .grandparent{margin-left: 270px;
+                margin-top: 40px;}
+    
+                .sub{margin-left: 73%;
+                 width: 100px;
+                height: 40px;
+            margin-bottom: 40px;}
+
+
+
+
+
+      

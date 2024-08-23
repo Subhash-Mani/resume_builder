@@ -1,0 +1,293 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="create.css">
+
+</head>
+<body>
+    <div class="logo">
+        <img src="WhatsApp Image 2024-08-12 at 2.33.33 PM.jpeg" >
+       </div>
+
+    <button class="bt12" onclick="logout()">logout</button>
+
+    <div class="wrapper">
+        <h1>RESUME</h1>
+    <div class="grandparent">
+
+        <div class="gparent1">
+            <h3>Name:</h3>
+            <input class="gchild1" type="text" placeholder="name" onkeyup=" file(this,'name')">
+        </div>
+
+        <div class="gparent2">
+            <h3>Email:</h3>
+            <input class="gchild2" type="text" placeholder="mail" onkeyup=" file(this,'mail')">
+        </div>
+
+        <div class="gparent3">
+            <h3>phone:</h3>
+            <input class="gchild3" type="number" placeholder="phone" onkeyup=" file(this,'phone')">
+        </div>
+
+        <div class="gparent4">
+            <h3>Address:</h3>
+            <input class="gchild4" type="text" placeholder="address" onkeyup=" file(this,'address')">
+        </div>
+
+        <div class="gparent5">
+            <h3>objective:</h3>
+            <input class="gchild5" type="text" placeholder="objective" onkeyup=" file(this,'objective')">
+        </div>
+<!-- ------------------------------------------------------------------------------------------------- -->
+        <div class="gparent6">
+            <b>
+                <u>
+                    <h2>personal details</h2>
+                </u>
+            </b>
+            <div class="vchild1">
+                <h3>age:</h3>
+                <input class="child1" type="text" placeholder="age" onkeyup=" file(this,'age','personaldetails')">
+            </div>
+            <div class="vchild2">
+                <h3>gender:</h3>
+                <input class="child2" type="radio" value="men"  name="gen" onclick=" file(this,'gender','personaldetails')">
+                 <label for="value">men</label>
+
+                <input class="child2" type="radio" value="women"  name="gen" onclick=" file(this,'gender','personaldetails')">
+                <label for="value">women</label>
+
+
+            </div>
+            <div class="vchild3">
+                <h3>status:</h3>
+                <input class="child3" type="radio" value="married"  name="stat"  onclick=" file(this,'status','personaldetails')">
+                <label for="value">married</label>
+                <input class="child3" type="radio" value="unmarried"  name="stat"  onclick=" file(this,'status','personaldetails')">
+                <label for="value">unmarried</label>
+            </div>
+            <div class="vchild4">
+                <h3>fathers name:</h3>
+                <input class="child4" type="text" placeholder="fname"
+                    onkeyup=" file(this,'fathersname','personaldetails')">
+            </div>
+            <div class="vchild5">
+                <h3>mothers name:</h3>
+                <input class="child5" type="text" placeholder="mname"
+                    onkeyup=" file(this,'mothersname','personaldetails')">
+            </div>
+            <div class="vchild6">
+                <h3>Nationality:</h3>
+                <input class="child6" type="text" placeholder="nationality"
+                    onkeyup=" file(this,'nationality','personaldetails')">
+            </div>
+            <div class="vchild7">
+
+                <h3 class="lan">Languages:</h3>
+
+                <input class="child7" type="text" placeholder="languages known" id="language" >
+                <button onclick="add1( 'language','languages','personaldetails')">add</button>
+                <table class="sbt"  >
+                    <thead>
+                    </thead>
+                    <tbody id="stable1">
+                         
+                    </tbody>
+    
+                </table>
+            </div>
+        </div>
+<!-- --------------------------------------------------------------------------------------------------- -->
+            <div class="gparent7">
+
+                <u>
+                    <h2>skills</h2>
+                </u>
+
+                <input class="schild1" type="text" placeholder="skills" id="skill" >
+                <button type="button" onclick="add1('skill','skills')">add</button>
+
+                <table class="sbt"  >
+                    <thead>
+                    </thead>
+                    <tbody id="stable">
+                         
+                    </tbody>
+    
+                </table>
+            </div>
+            
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+<div class="gparent8">
+    <b>
+        <u>
+            <h2>Education details</h2>
+        </u>
+    </b>
+     <table class="et1" border=1px>
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th>course</th>
+                <th>institute</th>
+                <th>year of passing</th>
+                <th>percentage</th>
+                <th>action</th>
+             </tr>
+             <tr>
+                <td><input class="echild1" type="text" placeholder="class" id="courses"> </td>
+                <td><input class="echild2" type="text" placeholder="institute" id="inst"> </td>
+                <td><input class="echild3" type="text" placeholder="yop" id="year"> </td>
+                <td><input class="echild4" type="text" placeholder="percentage" id="per"></td>
+                <td> <button onclick="add2('educationdetails','etable','courses','inst','year','per')">add</button>  </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="et" id="etable"   border=1px>
+        <thead>
+            <tr>
+                <th>course</th>
+                <th>institute</th>
+                <th>year of passing</th>
+                <th>percentage</th>
+                <th>action</th>
+            
+             </tr>
+
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+              
+</div>
+
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+
+<div class="gparent9">
+    <b>
+        <u>
+            <h2>projects</h2>
+        </u>
+    </b>
+    <table class="pt1"  border=1px>
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th>tittle</th>
+                <th>institute</th>
+                <th>discribtion</th>
+                <th>action</th>
+              
+                
+             </tr>
+             <tr>
+               <td><input class="pchild1" type="text" placeholder="project tittle" id="tittle"></td>
+               <td><input class="pchild2" type="text" placeholder="institute" id="institute"></td>
+               <td><input class="pchild3" type="text" placeholder="institute" id="discribtion"></td>
+                <td> <button onclick="add2('projects','tables', 'tittle','institute','discribtion')">add</button>  </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="pt2" id="tables" border=1px>
+        <thead>
+            <tr>
+                <th>tittle</th>
+                <th>institute</th>
+                <th>discribtion</th>
+                <th>action</th>
+              
+                
+             </tr>
+
+        </thead>
+        <tbody>
+           
+            
+        </tbody>
+    </table>
+    
+    </div>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+
+<div class="gparent10">
+    <b>
+        <u>
+            <h2>working experience</h2>
+        </u>
+    </b>
+    <table class="wt1" border=1px>
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th>company</th>
+                <th>desigination</th>
+                <th>year of experience</th>
+                <th>action</th>
+              
+                
+             </tr>
+             <tr>
+               <td><input class="wchild1" type="text" placeholder="companyname" id="companyname"></td>
+               <td><input class="wchild2" type="text" placeholder="desigination" id="designation"></td>
+               <td><input class="wchild3" type="text" placeholder="yop" id="yop"></td>
+                <td> <button onclick="add2('workexperience','table2','companyname','designation','yop' )">add</button>  </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="wt2" id="table2" border=1px>
+        <thead>
+            <tr>
+                <th>company</th>
+                <th>desigination</th>
+                <th>year of experience</th>
+                <th>action</th>
+              
+                
+             </tr>
+
+        </thead>
+        <tbody>
+           
+            
+        </tbody>
+    </table>
+    
+    </div>
+<!-- --------------------------------------------------------------------------- -->
+  
+
+
+</div>
+
+        <button class="sub" onclick="sub()">submit</button>
+
+
+    </div>
+
+    <pre>
+        <code id="preview"></code>
+      </pre>
+     
+</body>
+<script src="resume.js"></script>
+<script> 
+    let signin=localStorage.getItem("signin")
+    if(!signin){
+        window.location="index.html"
+    }
+</script>
+
+
+</html> 

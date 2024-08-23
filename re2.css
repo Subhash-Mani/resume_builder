@@ -1,0 +1,103 @@
+*{margin: 0;
+  padding:0}
+
+.wrapper{width: 85%;
+background-color:powderblue;
+border: 1px solid #000000;
+margin-left: 100px;}
+
+.nam{background-color:powderblue;}
+.nam1{margin-left: 20px;
+      padding: 10px 0 10px 0 ;
+    }
+
+
+
+.par2{width:100%;
+ background-color: aliceblue}
+ .char1{display:inline-block;
+        width:75%;
+        vertical-align: top;
+     }
+ .char2{display:inline-block}
+
+ .char3{display:inline-block}
+ .char4{display:inline-block}
+ .char5{display:inline-block}
+ .char6{display:inline-block}
+
+.ob{background-color: powderblue;}
+.ob1{margin-left: 20px;
+     margin-bottom: 0px;
+     padding-bottom: 20px;}
+
+.nam{background-color: powderblue;
+ width: 100%;}
+
+ .add{margin-left: 20px;}
+
+ .ed1{margin-left: 20px;
+      margin-bottom: 20px;}
+
+ .table {width: 96%;
+         margin-left: 20px;
+        text-align: center;}
+
+.pro1{margin-left: 20px;
+            margin-bottom: 20px;}
+.wo1{margin-left: 20px;
+                margin-bottom: 20px;}
+
+.sk1{margin-left: 20px;
+     margin-bottom: 20px;}
+.sk2{margin-left: 80px;
+  font-weight:800  ;}
+
+.per1{margin-left: 20px;
+margin-bottom: 40px;}
+
+
+
+.a{margin-left: 240px;
+   display: inline-block;
+   margin-bottom: 20px;}
+.b{margin-left: 240px;
+    display: inline-block;
+    margin-bottom: 20px;}
+
+.b{margin-left: 240px;
+    display: inline-block;
+    margin-bottom: 20px;}
+
+.c{margin-left: 240px;
+    display: inline-block;
+    margin-bottom: 20px;}
+
+.d{margin-left: 240px;
+    display: inline-block;
+    margin-bottom: 20px;}
+
+.f{margin-left: 240px;
+    display: inline-block;
+    padding-bottom: 20px;}
+
+
+
+
+    .q{display: inline-block;
+        margin-left: 111px;}
+    
+        .w{display: inline-block;
+            margin-left: 85px;}
+    
+            .e{display: inline-block;
+                margin-left: 23px;}
+                .r{display: inline-block;
+                    margin-left: 10px;}
+                    .g{display: inline-block;
+                        margin-left: 35px;}
+
+
+.lan1{margin-left: 20px;}
+   .lan2{ margin-left: 160px;
+    font-weight:800  ;}
